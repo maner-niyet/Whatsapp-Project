@@ -21,6 +21,26 @@ i{
 .second-r .col-4{
     padding: 0;
 }
+/* Sevda========= start*/
+.col-sm-4 {
+	margin: 0;
+	height: 50px;
+	border-right: 0.5px solid #a5a7a3;
+}
+.profile-img {
+    margin-top: 5px;
+    margin-right:10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.float-right {
+	float: right;
+	margin-top: 10px;
+}
+
+/* Sevda ======end */
+
 
 .col-4{
     border-right: 1px solid rgba(194, 196, 197, 0.644);
@@ -37,7 +57,7 @@ i{
     height: 100px;
 }
 .search-wrapper{
-    background-color: ;
+    background-color: #eee;
 }
 .search-container{
     width: 95%;
