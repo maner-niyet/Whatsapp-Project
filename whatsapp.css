@@ -1,7 +1,33 @@
 body{
     margin: 0;
-    background-image: url(https://play-lh.googleusercontent.com/SZ97RCEv5EVH6iMCDIdHeGJM_BNyHYcnRQ4EdK4V_VyVxLlQS8GY1U3xB8atEBH55OM);
+   
 }
+/* backgroun start */
+.back-top {
+	background-image: url('https://play-lh.googleusercontent.com/SZ97RCEv5EVH6iMCDIdHeGJM_BNyHYcnRQ4EdK4V_VyVxLlQS8GY1U3xB8atEBH55OM');
+	height: 15vh;
+	width: 100%;
+}
+.back-main {
+	background-color: #d9dbd5;
+	height: 85vh;
+}
+.back-container {
+	position: relative;
+}
+.front-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.front-container1 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+}
+/* background end */
 
 i{
     color: lightslategray;
