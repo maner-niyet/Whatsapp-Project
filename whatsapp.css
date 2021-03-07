@@ -1,8 +1,10 @@
 body{
     margin: 0;
-   
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ 
 }
-/* backgroun start */
+/* background start */
 .back-top {
 	background-image: url('https://play-lh.googleusercontent.com/SZ97RCEv5EVH6iMCDIdHeGJM_BNyHYcnRQ4EdK4V_VyVxLlQS8GY1U3xB8atEBH55OM');
 	height: 15vh;
@@ -137,4 +139,82 @@ i{
     padding: 0 0 5px 10px;   
     overflow-x: auto;
 }
+/* Gauhar starts here with chat*/
 
+.col-8{
+    background-image: url(https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    overflow-y: scroll;
+}
+.chat-container{
+    float: 1;
+    margin: 8px;
+}
+.message-box{
+    margin: 16px;
+    position: relative;
+}
+.message-box.mine::before{
+    content: '';
+    position: absolute;
+    right: -14px;
+    bottom: 2px;
+    border: 15px solid;
+    border-color:rgb(211, 230, 175) transparent transparent transparent;
+}
+
+.message-box.incoming::after{
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: 2px;
+    border: 15px solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.message1, .message2{
+    max-width: 210px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.message-box.mine .message2{
+    margin-left: auto;
+}
+.message-box.incoming .message1{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+.message1{
+    background-color: white;
+}
+.message2{
+    background-color: rgb(211, 230, 175);
+}
+.time {
+    color: #aaa;
+    font-size: small;
+    padding-left: 100px;
+    display: inline-block;
+  }
+  .time i{
+      color: lightskyblue;
+  }
+  .date{
+
+      text-align: center;
+      border: 1px solid rgb(207, 230, 245);
+      border-radius: 10px;
+      background-color: rgb(207, 230, 245);
+      padding: 5px;
+      width: 15%;
+      margin-left: 50%;
+       
+  }
